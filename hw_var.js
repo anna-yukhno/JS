@@ -3,8 +3,8 @@ var arr = [1, 4, 3, 6, 2, 5];
 
 console.log('number combination: ' + arr);
 
-for (var i = 0; i <= arr.length - 1; i++) {
-	for ( j = i+1; j <= (arr.length - 1); j++) {
+for (var i = 0; i < arr.length; i++) {
+	for ( j = i+1; j <arr.length; j++) {
 		if (arr[i] < arr[j]) {
 		tmp = arr[i];
 		arr[i] = arr[j];
